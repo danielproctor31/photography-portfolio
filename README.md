@@ -23,12 +23,12 @@ npm run dev
 
 Website: [http://localhost:1313](http://localhost:1313/)
 
-## Production Build
+## Build
 
 From `src` run:
 
 ```bash
-npm run build:prod
+npm run build
 ```
 
 Alternatively there is a also a docker build, from the root directory run:

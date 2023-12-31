@@ -1,4 +1,4 @@
-title = "Gallery"
+title = "Portfolio"
 languageCode = "en-gb"
 copyright = "© Daniel Proctor"
 disableKinds = ["taxonomy", "term"]
@@ -8,16 +8,16 @@ timeZone = "Europe/London"
 theme = ["github.com/nicokaiser/hugo-theme-gallery/v2"]
 
 [params]
-  title = "My Gallery"
-  description = "Example site for hugo-theme-gallery"
+  title = "Portfolio"
+  description = "Collection of my photography"
   defaultTheme = "dark"
 
 [author]
-  name = "Your Name"
+  name = "Daniel Proctor"
 
 [outputs]
   page = ["HTML"]
-  home = ["HTML", "RSS"]
+  home = ["HTML"]
   section = ["HTML"]
 
 [imaging]
