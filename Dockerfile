@@ -18,8 +18,7 @@ WORKDIR /src
 COPY ./src .
 
 # Build site
-RUN npm ci && \ 
-        npm run build
+RUN hugo --gc --minify
 
 FROM nginx:latest as publish
 # Copy static files

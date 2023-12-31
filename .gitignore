@@ -1,2 +1,5 @@
-node_modules
-resources/_gen/images
+node_modules/
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json

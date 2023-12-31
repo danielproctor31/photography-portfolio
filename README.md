@@ -9,16 +9,10 @@ Uses:
 
 Use the devcontainer with Docker and VSCode to get started. Alternatively install NodeJS (v20) and Hugo (v0.120.4).
 
-once setup, from `src` run:
+To start dev, from `src` run:
 
 ```bash
-npm ci
-```
-
-To start dev, run:
-
-```bash
-npm run dev
+hugo server -D
 ```
 
 Website: [http://localhost:1313](http://localhost:1313/)
@@ -28,7 +22,7 @@ Website: [http://localhost:1313](http://localhost:1313/)
 From `src` run:
 
 ```bash
-npm run build
+hugo --gc --minify
 ```
 
 Alternatively there is a also a docker build, from the root directory run:
