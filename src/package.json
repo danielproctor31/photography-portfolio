@@ -1,0 +1,22 @@
+{
+  "name": "photo-blog",
+  "version": "1.0.0",
+  "description": "Hugo site for my photography portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --gc --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielproctor31/photo-blog.git"
+  },
+  "author": "Daniel Proctor",
+  "dependencies": {
+    "@tinacms/auth": "^1.0.3",
+    "@tinacms/cli": "^1.5.30",
+    "next-tinacms-cloudinary": "^4.3.0",
+    "tinacms": "^1.5.21"
+  }
+}
