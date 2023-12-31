@@ -1,4 +1,4 @@
-# photo-blog
+# photography-portfolio
 
 Github pages site for [photo.danielproctor.dev](https://photo.danielproctor.dev)
 
