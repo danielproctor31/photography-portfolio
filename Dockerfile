@@ -10,7 +10,7 @@ ARG TARGETARCH amd64
 RUN mkdir -p /tmp
 WORKDIR /tmp
 
-RUN apk add --no-cache go hugo=~${HUGO_VERSION}
+RUN apk add --no-cache git tzdata go hugo=~${HUGO_VERSION}
 
 # Copy source files
 RUN mkdir -p /src
